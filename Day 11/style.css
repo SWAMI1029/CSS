@@ -1,0 +1,39 @@
+/* element Selector */
+h2{
+    background-color: aqua;
+}
+/* class selector */
+.first{
+    background-color:blueviolet;
+}
+/* id selector */
+#second{
+    background-color: brown;
+}
+/* p[draggable] and div[contenteditable] */
+h4[draggable]{
+    background-color: greenyellow;
+}
+h4[contenteditable="true"]{
+    background-color: blue;
+}
+/* universal selector */
+*{
+    background-color: cadetblue;
+}
+/* Grouping selector */
+h1,p{
+    background-color: aquamarine;
+}
+/* descendent selector div p{}*/
+section p{
+    background-color: aqua;
+}
+/* child Selector div>p */
+section>ul>p{
+    background-color: azure;
+}
+/* ID selector with Class selector */
+.five,#four{
+    background-color: chocolate;
+}

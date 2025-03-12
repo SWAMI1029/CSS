@@ -1,0 +1,40 @@
+/* CSS color */
+
+/* Named color */
+h2{
+    color: brown;
+}
+
+/*  RGB color */
+h1{
+    color:rgb(179, 204, 39);
+    /* Font family */
+    font-family:Arial, Helvetica, sans-serif;
+    /* Font size */
+    font-size: 50px;
+}
+/*  Hexadecimal Colors */
+h3{
+    /* 2em em- Parent font size */
+    font-size: 2em;
+    color: #14ca8d;
+}
+/* Alpha (transparent to opaque) */
+h4{
+    /* rem - html Font size */
+    font-size: 3rem;
+    color: rgba(18, 244, 7, 0.6);
+}
+/*  HSL Colors
+ HSL stands for hue, saturation, and lightness. */
+h5{
+    /* 120% Percentage size */
+    font-size: 300%;
+    color: hsl(241, 96%, 44%);
+}
+/* Background images */
+/* body{
+    background-image: url(./pexels-ferarcosn-190819.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
