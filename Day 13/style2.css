@@ -1,0 +1,43 @@
+/* Order Priority id>class>tag */
+/* h1{
+    background-color: blanchedalmond;
+}
+.firstclass{
+    background-color: aqua;
+}
+#first_class{
+    background-color: blue;
+} */
+
+/* Same order priority */
+/* h1{
+    background-color: pink;
+}
+h1{
+    background-color: blue;
+} */
+ 
+/* Specificity */
+/* h1{
+    background-color: pink;
+}
+.firstclass{
+    background-color: blue;
+}
+#first_class{
+    background-color: blanchedalmond;
+}
+h1[draggable="true"]{
+    background-color: aqua;
+}
+body h1{
+    background-color: red;
+}
+body>h1{
+    background-color: greenyellow;
+} */
+
+/* Important */
+h1{
+    background-color: aqua !important;
+}
