@@ -1,0 +1,28 @@
+.container{
+    height: 800px;
+    width: 800px;
+    background-color: aqua;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: orange;
+    margin: 10px;
+    /* box-shadow: 10px 10px red; */
+    /* box-shadow: 10px 10px 5px red; */
+    /* box-shadow: 10px 10px 5px 30px red; */
+    /* box-shadow: 0px 0px 0px 30px red; */
+    /* box-shadow: inset 10px 10px red; */
+    transition-property:all;
+    transition-duration: 3s ;
+    transition-timing-function:ease-out;
+    transition-delay: 1s;
+}
+.box:hover{
+    background-color: black;
+    width: 500px;
+}
