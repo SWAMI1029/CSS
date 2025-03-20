@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.orbit{
+    height: 200px;
+    width: 200px;
+    /* background-color: green; */
+    position: relative;
+}
+.sun{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    /* right: 10px;
+    bottom: 10px; */
+    top: 0px;
+    bottom: 0px;
+}
+.mars{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 25px;
+    top: 23px;
+    /* left: 0px; */
+    /* right: px; */
+    animation-name:mar;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+@keyframes mar{
+    from{
+        transform: rotate(0deg) translate(20vw);
+
+    }
+    to{
+        transform: rotate(360deg) translate(20vw);
+    }
+}
+.earth{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 25px;
+    top: 23px;
+    /* top: 0px;
+    left: 0px; */
+    animation-name:ear;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+@keyframes ear{
+    from{
+        transform: rotate(0deg) translate(30vw);
+
+    }
+    to{
+        transform: rotate(360deg) translate(30vw);
+    }
+}
+.jupiter{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 25px;
+    top: 23px;
+    animation-name:jup;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+@keyframes jup{
+    from{
+        transform: rotate(0deg) translate(45vw) rotate(0deg);
+
+    }
+    to{
+        transform: rotate(360deg) translate(45vw) rotate(-360deg);
+    }
+}
